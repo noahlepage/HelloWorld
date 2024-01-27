@@ -36,3 +36,4 @@ yarn-error.*
 
 # python
 back-end/.venv
+back-end/credentials
