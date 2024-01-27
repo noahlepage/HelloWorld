@@ -26,7 +26,7 @@ async def audio_handler(websocket, path):
         data = await websocket.recv()
         # Process audio data (perform voice recognition, etc.)
         print("Received audio data:", data)
-        current_user = which_user_is_this(data)
+        # current_user = which_user_is_this(data)
 
         response_data = "Recognition result: Hello, World!"
         await websocket.send(response_data)
