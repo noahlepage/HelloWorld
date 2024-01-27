@@ -9,7 +9,7 @@ export default function App() {
   async function startRecording() {
     try {
       if (permissionResponse.status !== "granted") {
-        console.log("Requesting permission..");
+        console.log("Requesting permission...");
         await requestPermission();
       }
       await Audio.setAudioModeAsync({
