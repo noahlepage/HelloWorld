@@ -38,3 +38,4 @@ yarn-error.*
 back-end/.venv
 *kaggle.json
 back-end/model/data
+back-end/model/temp
