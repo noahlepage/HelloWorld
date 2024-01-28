@@ -37,4 +37,4 @@ yarn-error.*
 # python
 back-end/.venv
 *kaggle.json
-back-end/data
+back-end/model/data
