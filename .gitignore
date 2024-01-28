@@ -36,4 +36,5 @@ yarn-error.*
 
 # python
 back-end/.venv
-back-end/credentials
+*kaggle.json
+back-end/data
